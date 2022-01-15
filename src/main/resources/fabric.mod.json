@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "allzombiestakeitems_lostallmymoney",
+  "version": "${version}",
+  "name": "AllZombiesTakeItems",
+  "description": "Zombies interactions go stonk !",
+  "authors": [
+    "lostallmymoney"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://github.com/lostallmymoney",
+    "sources": "https://github.com/lostallmymoney/AllZombiesTakeItems"
+  },
+  "license": "MIT",
+  "icon": "assets/allZombiesTakeItems_lostallmymoney/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "allZombiesTakeItems.AllZombiesTakeItems"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "allZombiesTakeItems_lostallmymoney.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12"
+  }
+}

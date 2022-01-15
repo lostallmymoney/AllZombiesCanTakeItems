@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "allZombiesTakeItems.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ZombieEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
